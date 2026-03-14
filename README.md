@@ -11,7 +11,7 @@ Each time you run it, the agent:
 1. Checks for a cached timetable PDF in the project folder (downloads a fresh one only if needed)
 2. Fetches live alerts and special schedules from the PATCO website
 3. Extracts the next 6 upcoming departures for your route
-4. Sends the results as an iMessage to +1 (856) 236-9785
+4. Sends the results as an iMessage
 
 ---
 
@@ -41,11 +41,11 @@ No additional installation is needed — the connector is built into Cowork.
 
 **2. Project Folder**
 
-Point Cowork at this project folder so the agent can read `claude.md`, the skill files, and the cached timetable PDF. Do this by clicking **Select Folder** in Cowork and choosing the `patco/` directory.
+Point Cowork at this project folder so the agent can read `claude.md`, the skill files, and the cached timetable PDF. Do this by clicking **Select Folder** in Cowork and choosing the `patco_commute_agent/` directory.
 
 **3. Recipient Phone Number**
 
-The recipient number is stored in `claude.md`. To change it, open `claude.md` and update the number in the Purpose section. 
+The recipient number is specified when running the task. 
 
 
 **4. Claude Chrome Extension**
